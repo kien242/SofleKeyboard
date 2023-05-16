@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c65a0613-6fe8-4e86-8e33-c5d338a0ab07)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 50.8 19.05) (size 19.05 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 24021b19-5149-4893-8c5a-9c62fc379f45)
+    (property "Sheetname" "Sofle_v2_Left" (at 50.8 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sofle_v2_Left.kicad_sch" (at 50.8 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SofleKeyboard"
+        (path "/c65a0613-6fe8-4e86-8e33-c5d338a0ab07" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 50.8 57.15) (size 19.05 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 36316fb6-6397-4405-ae65-4ff5a5908ca8)
+    (property "Sheetname" "RGB Left" (at 50.8 56.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RGB_Left.kicad_sch" (at 50.8 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SofleKeyboard"
+        (path "/c65a0613-6fe8-4e86-8e33-c5d338a0ab07" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 88.9 19.05) (size 19.05 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c17c576d-128d-47c2-8ac3-adc3cfb65f67)
+    (property "Sheetname" "Sofle_v2_Right" (at 88.9 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sofle_v2_Right.kicad_sch" (at 88.9 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SofleKeyboard"
+        (path "/c65a0613-6fe8-4e86-8e33-c5d338a0ab07" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

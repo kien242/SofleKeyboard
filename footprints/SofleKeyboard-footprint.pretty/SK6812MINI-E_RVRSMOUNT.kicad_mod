@@ -1,0 +1,77 @@
+(footprint "SK6812MINI-E_RVRSMOUNT" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
+      (effects (font (size 0.787402 0.787402) (thickness 0.15)))
+    (tstamp e094c06e-25d5-430c-8443-b03182103a29)
+  )
+  (fp_text value "SK6812MINI-E_RVRSMOUNT" (at 0 0) (layer "F.Fab") hide
+      (effects (font (size 0.787402 0.787402) (thickness 0.15)))
+    (tstamp 325acc63-12da-42b1-93b6-9e9fe1da37ef)
+  )
+  (fp_line (start 2.65 1.3) (end 3.677 1.3)
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 90d270aa-a448-4d7b-b471-6651cd8181bb))
+  (fp_line (start 3.677 0.2) (end 2.65 0.2)
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 9dc03c0f-00a8-41c5-ad90-ce862c5ea8d0))
+  (fp_line (start 3.677 1.3) (end 3.677 0.2)
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 9c213e37-be79-4032-9957-689ea27f991f))
+  (fp_rect (start -1.778 -1.524) (end 1.778 1.524)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 56e88cec-71f1-4a15-a14a-af69d56ef343))
+  (pad "1" smd custom (at -2.628 -0.75) (size 1.35 0.635) (layers "B.Cu" "B.Paste" "B.Mask")
+    (zone_connect 0) (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.774 0.41)
+          (xy -0.772 0.41)
+          (xy -0.772 -0.41)
+          (xy 0.774 -0.41)
+        )
+        (width 0.001) (fill yes))
+    ) (tstamp e0d8ed00-ab82-4629-a4e1-84d2c9accb81))
+  (pad "2" smd custom (at -2.628 0.75) (size 1.35 0.635) (layers "B.Cu" "B.Paste" "B.Mask")
+    (zone_connect 0) (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.772 -0.41)
+          (xy -0.772 0.41)
+          (xy 0.774 0.41)
+          (xy 0.774 -0.41)
+        )
+        (width 0.001) (fill yes))
+    ) (tstamp 5335c3b1-4ed0-44b0-91f1-120f82b2df7e))
+  (pad "3" smd custom (at 2.628 0.75) (size 1.35 0.635) (layers "B.Cu" "B.Paste" "B.Mask")
+    (zone_connect 0) (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.772 -0.41)
+          (xy 0.772 0.41019)
+          (xy -0.774 0.41)
+          (xy -0.774 -0.41)
+        )
+        (width 0.001) (fill yes))
+    ) (tstamp 28c68fd8-03d2-4518-9288-6ec52019505c))
+  (pad "4" smd custom (at 2.628 -0.75) (size 1.35 0.635) (layers "B.Cu" "B.Paste" "B.Mask")
+    (zone_connect 0) (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.774 -0.41)
+          (xy -0.774 0.41)
+          (xy 0.772 0.41)
+          (xy 0.772 -0.41)
+        )
+        (width 0.001) (fill yes))
+    ) (tstamp 2004a1c3-4f8e-481f-840c-887f3dbfde09))
+  (model "/home/kien242/Desktop/SofleKeyboard/footprints/SofleKeyboard-footprint.pretty/3d model/SK6812MINI-E v1.step"
+    (offset (xyz 0 0 -1.75))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
