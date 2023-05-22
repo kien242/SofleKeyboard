@@ -29,10 +29,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 36316fb6-6397-4405-ae65-4ff5a5908ca8)
-    (property "Sheetname" "RGB Left" (at 50.8 56.4384 0)
+    (property "Sheetname" "RGB Right" (at 50.8 56.4384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "RGB_Left.kicad_sch" (at 50.8 76.7846 0)
+    (property "Sheetfile" "RGB_Right.kicad_sch" (at 50.8 76.7846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
